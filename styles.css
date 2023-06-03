@@ -73,6 +73,7 @@ ul.instructionsUL li {
   float: right;
   cursor: pointer;
   text-align: center;
+  margin-left: 10px;
 }
 
 .close:hover {
@@ -99,4 +100,15 @@ ul.instructionsUL li {
   justify-content: space-evenly;
   align-items: flex-start;
   gap: 1em;
+}
+
+.list {
+  position: relative;
+}
+
+.list > .close {
+  position:absolute;
+  top:0;
+  right:0;
+  margin: 5px;
 }
